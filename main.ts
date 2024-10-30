@@ -6,3 +6,16 @@
 */
 
 basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+
+
+
+while (true) {
+    
+    basic.showIcon(IconNames.Yes)
+    robotbit.StpCarMove(10, 48)
+    basic.pause(500)
+    robotbit.StpCarMove(-10, 48)
+}
+
+
